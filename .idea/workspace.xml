@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 2 patrón adicional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/Cocina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/Comando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/ComandoCancelar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/ComandoOrdenar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/ComandoReservar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/Entrega.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/ServicioCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/patronEspecifico/EstadoMesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/patronEspecifico/Mesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/patronEspecifico/MesaLibre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/patronEspecifico/MesaOcupada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega3/patronEspecifico/MesaReservada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715604311509</updated>
-      <workItem from="1715604314152" duration="2803000" />
+      <workItem from="1715604314152" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -122,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715606692534</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="entrega 3">
+      <option name="closed" value="true" />
+      <created>1715607139811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715607139811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
     <MESSAGE value="entrega 1 patrón adicional" />
     <MESSAGE value="entrega 2" />
     <MESSAGE value="entrega 2 patrón adicional" />
-    <option name="LAST_COMMIT_MESSAGE" value="entrega 2 patrón adicional" />
+    <MESSAGE value="entrega 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrega 3" />
   </component>
 </project>
