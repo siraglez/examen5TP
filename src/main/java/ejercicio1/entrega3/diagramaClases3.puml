@@ -1,0 +1,80 @@
+@startuml
+
+interface Comando {
+    {abstract} void ejecutar()
+}
+
+class ComandoReservar {
+    +ejecutar()
+}
+
+class ComandoOrdenar {
+    +ejecutar()
+}
+
+class ComandoCancelar {
+    +ejecutar()
+}
+
+class Mediator {
+    -Cocina cocina
+    -ServicioCliente servicioCliente
+    -Entrega entrega
+    +Mediator(Cocina cocina, ServicioCliente servicioCliente, Entrega entrega)
+    +ejecutarPedido()
+}
+
+class Cocina {
+    +prepararPedido()
+}
+
+class ServicioCliente {
+    +servirPedido()
+}
+
+class Entrega {
+    +entregarPedido()
+}
+
+class Mesa {
+    -EstadoMesa estado
+    +Mesa()
+    +cambiarEstado(EstadoMesa estado)
+    +solicitar()
+    +ocupar()
+    +liberar()
+}
+
+interface EstadoMesa {
+    {abstract} void solicitar(Mesa mesa)
+    {abstract} void ocupar(Mesa mesa)
+    {abstract} void liberar(Mesa mesa)
+}
+
+class MesaLibre {
+    +solicitar(Mesa mesa)
+    +ocupar(Mesa mesa)
+    +liberar(Mesa mesa)
+}
+
+class MesaReservada {
+    +solicitar(Mesa mesa)
+    +ocupar(Mesa mesa)
+    +liberar(Mesa mesa)
+}
+
+class MesaOcupada {
+    +solicitar(Mesa mesa)
+    +ocupar(Mesa mesa)
+    +liberar(Mesa mesa)
+}
+
+Comando <|-- ComandoReservar
+Comando <|-- ComandoOrdenar
+Comando <|-- ComandoCancelar
+Mesa --> EstadoMesa
+MesaLibre <|.. EstadoMesa
+MesaReservada <|.. EstadoMesa
+MesaOcupada <|.. EstadoMesa
+
+@enduml
