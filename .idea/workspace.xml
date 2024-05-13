@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 3 patrón específico">
+    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 3 readme">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega1/RestauranteFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,6 +49,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -73,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715604311509</updated>
-      <workItem from="1715604314152" duration="3987000" />
+      <workItem from="1715604314152" duration="4653000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -131,7 +135,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715607723597</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="entrega 1 readme">
+      <option name="closed" value="true" />
+      <created>1715608364305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715608364305</updated>
+    </task>
+    <task id="LOCAL-00009" summary="entrega 2 readme">
+      <option name="closed" value="true" />
+      <created>1715608467560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715608467560</updated>
+    </task>
+    <task id="LOCAL-00010" summary="entrega 3 readme">
+      <option name="closed" value="true" />
+      <created>1715608635056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715608635056</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +173,9 @@
     <MESSAGE value="entrega 2 patrón adicional" />
     <MESSAGE value="entrega 3" />
     <MESSAGE value="entrega 3 patrón específico" />
-    <option name="LAST_COMMIT_MESSAGE" value="entrega 3 patrón específico" />
+    <MESSAGE value="entrega 1 readme" />
+    <MESSAGE value="entrega 2 readme" />
+    <MESSAGE value="entrega 3 readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrega 3 readme" />
   </component>
 </project>
