@@ -1,0 +1,54 @@
+@startuml
+
+interface Restaurante {
+    {abstract} void servirCliente()
+}
+
+class RestauranteRapido {
+    void servirCliente()
+}
+
+class RestauranteTematico {
+    void servirCliente()
+}
+
+class RestauranteDeLujo {
+    void servirCliente()
+}
+
+class RestauranteFactory {
+    Restaurante getRestaurante(String tipo)
+}
+
+class GestorRestaurantes {
+    -static instance: GestorRestaurantes
+    +getInstance(): GestorRestaurantes
+    +gestionar()
+}
+
+interface EstrategiaServicio {
+    {abstract} void ejecutar()
+}
+
+class EstrategiaServicioRapido {
+    void ejecutar()
+}
+
+class EstrategiaServicioTematico {
+    void ejecutar()
+}
+
+class EstrategiaServicioDeLujo {
+    void ejecutar()
+}
+
+Main --> RestauranteFactory: Creates
+Main --> GestorRestaurantes: Uses
+Main --> EstrategiaServicio: Uses
+RestauranteFactory --> Restaurante: Creates
+GestorRestaurantes --> Restaurante: Manages
+EstrategiaServicio <|-- EstrategiaServicioRapido
+EstrategiaServicio <|-- EstrategiaServicioTematico
+EstrategiaServicio <|-- EstrategiaServicioDeLujo
+
+@enduml
