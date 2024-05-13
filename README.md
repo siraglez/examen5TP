@@ -37,3 +37,17 @@ El patrón Observer se utiliza para definir una dependencia de uno a muchos entr
 
 
 ## Entrega 3: Patrones de Comportamiento
+
+Este código Java muestra la implementación de tres patrones de diseño diferentes: Command, Mediator y State.
+
+### 1. Command:
+
+El patrón Command se utiliza para encapsular una solicitud como un objeto, permitiendo parametrizar clientes con operaciones, encolar solicitudes y soportar operaciones que pueden ser deshechas. Aquí, se define una interfaz `Comando` que declara un método `ejecutar()`. Luego, se tienen varias clases concretas que implementan esta interfaz, como `ComandoReservar`, `ComandoOrdenar` y `ComandoCancelar`, cada una con su propia lógica de ejecución.
+
+### 2. Mediator:
+
+El patrón Mediator se utiliza para reducir las dependencias complejas entre objetos, al encapsular su interacción en un objeto mediador independiente. En este caso, se tiene la clase `Mediator` que coordina la interacción entre diferentes componentes del sistema: `Cocina`, `ServicioCliente` y `Entrega`. El mediador ejecuta un pedido coordinando las acciones de estos componentes.
+
+### 3. State:
+
+El patrón State se utiliza para permitir que un objeto altere su comportamiento cuando su estado interno cambia. Aquí, se tiene la clase `Mesa` que puede estar en diferentes estados representados por objetos que implementan la interfaz `EstadoMesa`, como `MesaLibre`, `MesaReservada` y `MesaOcupada`. Cada estado define cómo la mesa responde a las solicitudes, ocupaciones y liberaciones.
