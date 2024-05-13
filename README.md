@@ -25,8 +25,15 @@ Este código Java muestra la implementación de tres patrones de diseño distint
 
 ### 1. Composite:
 
+El patrón Composite se utiliza para tratar a los objetos individuales y a las composiciones de objetos de manera uniforme. En este caso, se define una interfaz `ComponenteRestaurante` que declara un método `mostrarInformacion()`. Luego, se tienen dos clases: `RestauranteSimple`, que implementa esta interfaz y representa un restaurante individual, y `GrupoRestaurantes`, que también implementa la interfaz pero representa un grupo de restaurantes, permitiendo agregar y mostrar información sobre varios restaurantes a la vez.
+
 ### 2. Adapter:
 
+El patrón Adapter se utiliza para permitir que interfaces incompatibles trabajen juntas. En este caso, se tiene una interfaz `SistemaExterno` con un método `solicitarReserva()`, y una clase `SistemaReserva` que tiene un método `realizarReserva()`. La clase `SistemaReservaAdapter` implementa la interfaz `SistemaExterno` y actúa como un adaptador entre la interfaz del sistema externo y la clase `SistemaReserva`, permitiendo que un sistema externo solicite una reserva sin necesidad de conocer los detalles de implementación de la clase `SistemaReserva`.
+
 ### 3. Observer:
+
+El patrón Observer se utiliza para definir una dependencia de uno a muchos entre objetos, de manera que cuando un objeto cambia de estado, todos sus dependientes son notificados y actualizados automáticamente. En este caso, se define una interfaz `Observador` con un método `actualizar(String mensaje)`, y una clase `Sujeto` que tiene una lista de observadores y métodos para agregar observadores y notificarles un mensaje. La clase `Cliente` implementa la interfaz `Observador` y define cómo reacciona un cliente cuando recibe una notificación.
+
 
 ## Entrega 3: Patrones de Comportamiento
