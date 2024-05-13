@@ -1,0 +1,60 @@
+@startuml
+
+interface ComponenteRestaurante {
+    {abstract} void mostrarInformacion()
+}
+
+class RestauranteSimple {
+    -String nombre
+    +RestauranteSimple(String nombre)
+    +mostrarInformacion()
+}
+
+class GrupoRestaurantes {
+    -List<ComponenteRestaurante> restaurantes
+    +agregarRestaurante(ComponenteRestaurante restaurante)
+    +mostrarInformacion()
+}
+
+interface SistemaExterno {
+    {abstract} void solicitarReserva()
+}
+
+class SistemaReservaAdapter {
+    -SistemaReserva sistemaReserva
+    +SistemaReservaAdapter(SistemaReserva sistemaReserva)
+    +solicitarReserva()
+}
+
+class SistemaReserva {
+    +realizarReserva()
+}
+
+interface Observador {
+    {abstract} void actualizar(String mensaje)
+}
+
+class Cliente {
+    -String nombre
+    +Cliente(String nombre)
+    +actualizar(String mensaje)
+}
+
+class Sujeto {
+    -List<Observador> observadores
+    +agregarObservador(Observador observador)
+    +notificar(String mensaje)
+}
+
+Main -left-> RestauranteSimple : Uses
+Main -left-> GrupoRestaurantes : Uses
+Main -right-> SistemaReserva : Uses
+Main -right-> SistemaReservaAdapter : Uses
+Main -down-> Sujeto : Uses
+RestauranteSimple ..> ComponenteRestaurante : Implements
+GrupoRestaurantes ..> ComponenteRestaurante : Implements
+SistemaReservaAdapter ..> SistemaExterno : Implements
+Cliente ..> Observador : Implements
+Sujeto ..> Observador : Aggregates
+
+@enduml
