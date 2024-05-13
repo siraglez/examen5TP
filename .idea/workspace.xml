@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="crear repositorio">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/GestorRestaurantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/Restaurante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteDeLujo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteRapido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteTematico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/patronAdicional/EstrategiaServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/patronAdicional/EstrategiaServicioDeLujo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/patronAdicional/EstrategiaServicioRapido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/patronAdicional/EstrategiaServicioTemático.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 1 patrón adicional">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega2/ComponenteRestaurante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega2/GrupoRestaurantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega2/RestauranteSimple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715604311509</updated>
-      <workItem from="1715604314152" duration="1119000" />
+      <workItem from="1715604314152" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -93,7 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715604360894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="entrega 1">
+      <option name="closed" value="true" />
+      <created>1715605796363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715605796363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="entrega 1 patrón adicional">
+      <option name="closed" value="true" />
+      <created>1715605815041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715605815041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crear repositorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="crear repositorio" />
+    <MESSAGE value="entrega 1" />
+    <MESSAGE value="entrega 1 patrón adicional" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrega 1 patrón adicional" />
   </component>
 </project>
