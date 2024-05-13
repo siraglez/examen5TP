@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="entrega 3 readme">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega1/RestauranteFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/entrega1/RestauranteFactory.java" afterDir="false" />
+    <list default="true" id="71f38218-48ea-4603-aeda-a7b3a1b4b584" name="Changes" comment="tests entrega 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/CocinaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/ComandoCancelarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/ComandoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/EntregaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/MediatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/ServicioClienteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/EstadoMesaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/MesaLibreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/MesaOcupadaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/MesaReservadaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/entrega3/patronEspecifico/MesaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +70,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ejercicio1.entrega3" />
+      <recent name="ejercicio1.entrega3.patronEspecifico" />
+      <recent name="ejercicio1.entrega2.patronAdicional" />
+      <recent name="ejercicio1.entrega2" />
+      <recent name="ejercicio1.entrega1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715604311509</updated>
-      <workItem from="1715604314152" duration="4653000" />
+      <workItem from="1715604314152" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="crear repositorio">
       <option name="closed" value="true" />
@@ -159,7 +180,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715608635056</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tests entrega 1">
+      <option name="closed" value="true" />
+      <created>1715609078517</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609078517</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tests entrega 1">
+      <option name="closed" value="true" />
+      <created>1715609139473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609139473</updated>
+    </task>
+    <task id="LOCAL-00013" summary="tests entrega 2">
+      <option name="closed" value="true" />
+      <created>1715609281712</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609281712</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +221,8 @@
     <MESSAGE value="entrega 1 readme" />
     <MESSAGE value="entrega 2 readme" />
     <MESSAGE value="entrega 3 readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="entrega 3 readme" />
+    <MESSAGE value="tests entrega 1" />
+    <MESSAGE value="tests entrega 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests entrega 2" />
   </component>
 </project>
